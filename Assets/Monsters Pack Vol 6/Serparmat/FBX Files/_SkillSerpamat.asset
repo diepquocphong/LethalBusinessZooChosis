@@ -54,13 +54,13 @@ MonoBehaviour:
   m_Effects:
     m_SoundUse:
       m_Property:
-        rid: 8453198523588411909
+        rid: 8453198570586374811
     m_SoundStrike:
       m_Property:
         rid: 8453198523588411910
     m_SoundHit:
       m_Property:
-        rid: 8453198523588411911
+        rid: 8453198570586374849
     m_SoundBlocked:
       m_Property:
         rid: 8453198523588411912
@@ -111,16 +111,19 @@ MonoBehaviour:
       rid: 8453198523588411926
   m_OnStart:
     m_Instructions:
-      m_Instructions: []
+      m_Instructions:
+      - rid: 8453198570586375152
   m_OnFinish:
     m_Instructions:
-      m_Instructions: []
+      m_Instructions:
+      - rid: 8453198570586375160
   m_CanHit:
     m_Conditions:
       m_Conditions: []
   m_OnHit:
     m_Instructions:
-      m_Instructions: []
+      m_Instructions:
+      - rid: 8453198570586374662
   <EditorModelPath>k__BackingField: 
   references:
     version: 2
@@ -144,13 +147,7 @@ MonoBehaviour:
       type: {class: GetAnimationInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: {fileID: 0}
-    - rid: 8453198523588411909
-      type: {class: GetAudioNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
     - rid: 8453198523588411910
-      type: {class: GetAudioNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 8453198523588411911
       type: {class: GetAudioNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
     - rid: 8453198523588411912
@@ -260,3 +257,113 @@ MonoBehaviour:
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 1
+    - rid: 8453198570586374662
+      type: {class: InstructionCameraShakeBurst, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Camera:
+          m_Property:
+            rid: 8453198570586374663
+        m_Delay: 0
+        m_Duration: 1
+        m_ShakeEffect:
+          m_ShakePosition: 1
+          m_ShakeRotation: 1
+          m_Magnitude: 2
+          m_Roughness: 2
+          m_Transform: {fileID: 0}
+          m_Radius: 10
+    - rid: 8453198570586374663
+      type: {class: GetGameObjectCameraMain, ns: GameCreator.Runtime.Cameras, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 8453198570586374811
+      type: {class: GetAudioClip, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: {fileID: 8300000, guid: fb1cc8d4bda9f4dffbdf7c1d3c9ceeec, type: 3}
+    - rid: 8453198570586374849
+      type: {class: GetAudioRandomClip, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Values:
+        - {fileID: 8300000, guid: 79dce1c2f331a4c9a8b329ee526d10a4, type: 3}
+        - {fileID: 8300000, guid: 2051e5a08b9a94b0c83d69351516cc0c, type: 3}
+        - {fileID: 8300000, guid: cb0521f2cc3bf4760aef140485199a0f, type: 3}
+    - rid: 8453198570586375152
+      type: {class: InstructionArithmeticAddNumbers, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Set:
+          m_Property:
+            rid: 8453198570586375153
+        m_Value1:
+          m_Property:
+            rid: 8453198570586375156
+        m_Value2:
+          m_Property:
+            rid: 8453198570586375155
+    - rid: 8453198570586375153
+      type: {class: SetNumberGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: number
+          m_Variable: {fileID: 11400000, guid: 6dfb0ffbdde5f46e8a749b0164f73122, type: 2}
+          m_Name:
+            m_String: R_Damage
+            m_ID: 1720949
+    - rid: 8453198570586375155
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 15
+    - rid: 8453198570586375156
+      type: {class: GetDecimalGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: number
+          m_Variable: {fileID: 11400000, guid: 6dfb0ffbdde5f46e8a749b0164f73122, type: 2}
+          m_Name:
+            m_String: R_Damage
+            m_ID: 1720949
+    - rid: 8453198570586375160
+      type: {class: InstructionArithmeticSubtractNumbers, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Set:
+          m_Property:
+            rid: 8453198570586375161
+        m_Value1:
+          m_Property:
+            rid: 8453198570586375164
+        m_Value2:
+          m_Property:
+            rid: 8453198570586375163
+    - rid: 8453198570586375161
+      type: {class: SetNumberGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: number
+          m_Variable: {fileID: 11400000, guid: 6dfb0ffbdde5f46e8a749b0164f73122, type: 2}
+          m_Name:
+            m_String: R_Damage
+            m_ID: 1720949
+    - rid: 8453198570586375163
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 15
+    - rid: 8453198570586375164
+      type: {class: GetDecimalGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: number
+          m_Variable: {fileID: 11400000, guid: 6dfb0ffbdde5f46e8a749b0164f73122, type: 2}
+          m_Name:
+            m_String: R_Damage
+            m_ID: 1720949

@@ -37,7 +37,7 @@ MonoBehaviour:
         m_Value:
           rid: 8453198294428942342
         m_Name:
-          m_String: my-variable
+          m_String: R_Damage
     - rid: 8453198294428942342
       type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
