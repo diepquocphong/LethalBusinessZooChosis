@@ -219,6 +219,7 @@ MonoBehaviour:
     - rid: 8453198454040822450
     - rid: 8453198439962640466
     - rid: 8453198439962640400
+    - rid: 8453198570586374205
   m_TriggerEvent:
     rid: 8453198439962640394
   references:
@@ -894,6 +895,31 @@ MonoBehaviour:
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: Canvas
+    - rid: 8453198570586374205
+      type: {class: InstructionCharacterNavigationFacing, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 8453198570586374206
+        m_Rotation:
+          m_Facing:
+            rid: 8453198570586374209
+    - rid: 8453198570586374206
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 8453198570586374209
+      type: {class: UnitFacingObjectDirection, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_DirectionOf:
+          m_Property:
+            rid: 8453198570586374210
+    - rid: 8453198570586374210
+      type: {class: GetGameObjectCameraMain, ns: GameCreator.Runtime.Cameras, asm: GameCreator.Runtime.Core}
+      data: 
 --- !u!1 &2107424697270302013
 GameObject:
   m_ObjectHideFlags: 0
