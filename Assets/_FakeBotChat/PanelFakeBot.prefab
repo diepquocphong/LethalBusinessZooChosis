@@ -619,7 +619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 244.31, y: -248.34717}
+  m_AnchoredPosition: {x: 244, y: -248.5}
   m_SizeDelta: {x: 488.61, y: 506.06}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8669613411190536869
@@ -1800,9 +1800,13 @@ MonoBehaviour:
       data:
         m_Source:
         - rid: 8453198511154659971
+        - rid: 8453198589618815160
+        - rid: 8453198589618815158
         - rid: 8453198511154659981
+        - rid: 8453198589618815154
         - rid: 8453198511154659979
         - rid: 8453198511154659977
+        - rid: 8453198589618815156
         - rid: 8453198511154659975
         - rid: 8453198511154659973
         - rid: 8453198511154659983
@@ -1913,6 +1917,58 @@ MonoBehaviour:
         m_Breakpoint: 0
         m_IsEnabled: 1
         m_Value: -3
+    - rid: 8453198589618815154
+      type: {class: IndexVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 8453198589618815155
+    - rid: 8453198589618815155
+      type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 2
+    - rid: 8453198589618815156
+      type: {class: IndexVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 8453198589618815157
+    - rid: 8453198589618815157
+      type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 4
+    - rid: 8453198589618815158
+      type: {class: IndexVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 8453198589618815159
+    - rid: 8453198589618815159
+      type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 1
+    - rid: 8453198589618815160
+      type: {class: IndexVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 8453198589618815161
+    - rid: 8453198589618815161
+      type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 1
 --- !u!1 &5951872200030946784
 GameObject:
   m_ObjectHideFlags: 0
