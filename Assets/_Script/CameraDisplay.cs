@@ -61,4 +61,21 @@ public class CameraDisplay : MonoBehaviour
             Debug.LogWarning("No front camera detected!");
         }
     }
+
+    public void StopCamera()
+    {
+        if (webCamTexture != null && webCamTexture.isPlaying)
+        {
+            webCamTexture.Stop();
+        }
+    }
+
+    // Phương thức khởi động lại camera
+    public void PlayCamera()
+    {
+        if (webCamTexture != null && !webCamTexture.isPlaying)
+        {
+            webCamTexture.Play();
+        }
+    }
 }

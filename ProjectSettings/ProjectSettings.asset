@@ -831,7 +831,7 @@ PlayerSettings:
     Android: OPTIMIZERS_DOTS_IMPORTED;GLEY_APPLOVIN;USC_UNITY_PIPELINE_LEGACY;USC_EXCLUDE_SHARE
     WebGL: USC_EXCLUDE_SHARE
     Windows Store Apps: 
-    iPhone: GLEY_APPLOVIN;USC_EXCLUDE_SHARE
+    iPhone: GLEY_APPLOVIN;USC_EXCLUDE_SHARE;USC_EXCLUDE_IOS_GALLERY
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
