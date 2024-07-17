@@ -531,8 +531,8 @@ MonoBehaviour:
       type: {class: GetSceneAsset, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Scene:
-          m_Scene: {fileID: 102900000, guid: 8d8a9036cd1774c77bd900be566df8f2, type: 3}
-          m_SceneName: GamePlay
+          m_Scene: {fileID: 102900000, guid: e73cfde7d2af64e2b84df6ed867593f9, type: 3}
+          m_SceneName: MenuGame
           m_SceneIndex: 1
 --- !u!4 &1587844612
 Transform:

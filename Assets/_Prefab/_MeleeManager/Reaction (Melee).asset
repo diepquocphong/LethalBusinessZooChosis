@@ -52,23 +52,16 @@ MonoBehaviour:
           duration: 10
         m_Position:
           m_Property:
-            rid: 8453198454040821799
+            rid: 8453198589618815694
         m_Rotation:
           m_Property:
-            rid: 8453198454040821800
+            rid: 8453198589618815695
         m_Parent:
           m_Property:
             rid: 8453198454040821801
         m_Save:
           m_Property:
             rid: 8453198454040821802
-    - rid: 8453198454040821799
-      type: {class: GetPositionCharactersPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 8453198454040821800
-      type: {class: GetRotationCharactersPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Space: 0
     - rid: 8453198454040821801
       type: {class: GetGameObjectNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
@@ -168,7 +161,7 @@ MonoBehaviour:
         m_IsEnabled: 1
         m_Target:
           m_Property:
-            rid: 8453198454040822545
+            rid: 8453198589618815693
         m_Attribute:
           m_Property:
             rid: 8453198454040822546
@@ -177,9 +170,6 @@ MonoBehaviour:
           m_Value:
             m_Property:
               rid: 8453198570586375148
-    - rid: 8453198454040822545
-      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data: 
     - rid: 8453198454040822546
       type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
       data:
@@ -194,3 +184,13 @@ MonoBehaviour:
           m_Name:
             m_String: R_Damage
             m_ID: 1720949
+    - rid: 8453198589618815693
+      type: {class: GetGameObjectTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 8453198589618815694
+      type: {class: GetPositionSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 8453198589618815695
+      type: {class: GetRotationSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Space: 0

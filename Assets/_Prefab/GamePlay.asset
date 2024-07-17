@@ -30,6 +30,9 @@ MonoBehaviour:
         - rid: 8453198570586374229
         - rid: 8453198589618815173
         - rid: 8453198294428942341
+        - rid: 8453198589618815778
+        - rid: 8453198614033072241
+        - rid: 8453198614033072243
     - rid: 8453198294428942341
       type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
@@ -71,6 +74,51 @@ MonoBehaviour:
           m_String: StartGame
     - rid: 8453198589618815174
       type: {class: ValueBool, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 0
+    - rid: 8453198589618815778
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 8453198589618815779
+        m_Name:
+          m_String: Battery
+    - rid: 8453198589618815779
+      type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 100
+    - rid: 8453198614033072241
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 8453198614033072242
+        m_Name:
+          m_String: CollectTrash
+    - rid: 8453198614033072242
+      type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 0
+    - rid: 8453198614033072243
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 8453198614033072244
+        m_Name:
+          m_String: KillMonster
+    - rid: 8453198614033072244
+      type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
