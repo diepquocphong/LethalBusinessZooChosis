@@ -29,6 +29,7 @@ MonoBehaviour:
         m_Source:
         - rid: 8453198570586374229
         - rid: 8453198589618815173
+        - rid: 8453198635322572822
         - rid: 8453198294428942341
         - rid: 8453198589618815778
         - rid: 8453198614033072241
@@ -119,6 +120,21 @@ MonoBehaviour:
           m_String: KillMonster
     - rid: 8453198614033072244
       type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 0
+    - rid: 8453198635322572822
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 8453198635322572823
+        m_Name:
+          m_String: NightTime
+    - rid: 8453198635322572823
+      type: {class: ValueBool, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
