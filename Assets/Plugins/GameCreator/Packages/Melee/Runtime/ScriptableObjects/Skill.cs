@@ -49,6 +49,9 @@ namespace GameCreator.Runtime.Melee
         [SerializeField] private PropertyGetDecimal m_SpeedStrike = GetDecimalConstantOne.Create;
         [SerializeField] private PropertyGetDecimal m_SpeedRecovery = GetDecimalConstantOne.Create;
 
+        [SerializeField] private RunConditionsList m_CanBlock = new RunConditionsList();
+        [SerializeField] private RunConditionsList m_CanParry = new RunConditionsList();
+        
         [SerializeField] private PropertyGetDecimal m_PoiseArmor = GetDecimalConstantOne.Create;
         [SerializeField] private PropertyGetDecimal m_PoiseDamage = GetDecimalConstantOne.Create;
         
@@ -222,7 +225,11 @@ namespace GameCreator.Runtime.Melee
             if (sound != null)
             {
                 Character self = args.Self != null ? args.Self.Get<Character>() : null;
-                TimeMode.UpdateMode time = self != null ? self.Time.UpdateTime : TimeMode.UpdateMode.GameTime;
+                TimeMode.UpdateMode time = this.m_Effects.UseUnscaledTime
+                    ? TimeMode.UpdateMode.UnscaledTime
+                    : self != null
+                        ? self.Time.UpdateTime
+                        : TimeMode.UpdateMode.GameTime;
                 
                 AudioConfigSoundEffect soundConfig = AudioConfigSoundEffect.Create(
                     1f, SkillEffects.PITCH, 0f,
@@ -248,6 +255,16 @@ namespace GameCreator.Runtime.Melee
         
         // INTERNAL CALLBACKS: --------------------------------------------------------------------
 
+        internal bool CanBlock(Args args)
+        {
+            return this.m_CanBlock.Check(args);
+        }
+
+        internal bool CanParry(Args args)
+        {
+            return this.m_CanParry.Check(args);
+        }
+        
         internal void OnHit(Args args, Vector3 point, Vector3 direction)
         {
             if (this.m_Effects.HitPause)
@@ -264,11 +281,15 @@ namespace GameCreator.Runtime.Melee
             if (sound != null)
             {
                 Character self = args.Self != null ? args.Self.Get<Character>() : null;
-                TimeMode.UpdateMode time = self != null ? self.Time.UpdateTime : TimeMode.UpdateMode.GameTime;
+                TimeMode.UpdateMode time = this.m_Effects.UseUnscaledTime
+                    ? TimeMode.UpdateMode.UnscaledTime
+                    : self != null
+                        ? self.Time.UpdateTime
+                        : TimeMode.UpdateMode.GameTime;
                 
                 AudioConfigSoundEffect config = AudioConfigSoundEffect.Create(
                     1f, SkillEffects.PITCH, 0f,
-                    time, SpatialBlending.Spatial, args.Target
+                    time, SpatialBlending.Spatial, args.Self
                 );
                 
                 _ = AudioManager.Instance.SoundEffect.Play(sound, config, args);
@@ -295,11 +316,15 @@ namespace GameCreator.Runtime.Melee
             if (sound != null)
             {
                 Character self = args.Self != null ? args.Self.Get<Character>() : null;
-                TimeMode.UpdateMode time = self != null ? self.Time.UpdateTime : TimeMode.UpdateMode.GameTime;
+                TimeMode.UpdateMode time = this.m_Effects.UseUnscaledTime
+                    ? TimeMode.UpdateMode.UnscaledTime
+                    : self != null
+                        ? self.Time.UpdateTime
+                        : TimeMode.UpdateMode.GameTime;
                 
                 AudioConfigSoundEffect config = AudioConfigSoundEffect.Create(
                     1f, SkillEffects.PITCH, 0f,
-                    time, SpatialBlending.Spatial, args.Target
+                    time, SpatialBlending.Spatial, args.Self
                 );
                 
                 _ = AudioManager.Instance.SoundEffect.Play(sound, config, args);
@@ -312,11 +337,15 @@ namespace GameCreator.Runtime.Melee
             if (sound != null)
             {
                 Character self = args.Self != null ? args.Self.Get<Character>() : null;
-                TimeMode.UpdateMode time = self != null ? self.Time.UpdateTime : TimeMode.UpdateMode.GameTime;
-                    
+                TimeMode.UpdateMode time = this.m_Effects.UseUnscaledTime
+                    ? TimeMode.UpdateMode.UnscaledTime
+                    : self != null
+                        ? self.Time.UpdateTime
+                        : TimeMode.UpdateMode.GameTime;
+                
                 AudioConfigSoundEffect config = AudioConfigSoundEffect.Create(
                     1f, SkillEffects.PITCH, 0f,
-                    time, SpatialBlending.Spatial, args.Target
+                    time, SpatialBlending.Spatial, args.Self
                 );
                 
                 _ = AudioManager.Instance.SoundEffect.Play(sound, config, args);
@@ -329,11 +358,15 @@ namespace GameCreator.Runtime.Melee
             if (sound != null)
             {
                 Character self = args.Self != null ? args.Self.Get<Character>() : null;
-                TimeMode.UpdateMode time = self != null ? self.Time.UpdateTime : TimeMode.UpdateMode.GameTime;
+                TimeMode.UpdateMode time = this.m_Effects.UseUnscaledTime
+                    ? TimeMode.UpdateMode.UnscaledTime
+                    : self != null
+                        ? self.Time.UpdateTime
+                        : TimeMode.UpdateMode.GameTime;
                 
                 AudioConfigSoundEffect config = AudioConfigSoundEffect.Create(
                     1f, SkillEffects.PITCH, 0f,
-                    time, SpatialBlending.Spatial, args.Target
+                    time, SpatialBlending.Spatial, args.Self
                 );
                 
                 _ = AudioManager.Instance.SoundEffect.Play(sound, config, args);

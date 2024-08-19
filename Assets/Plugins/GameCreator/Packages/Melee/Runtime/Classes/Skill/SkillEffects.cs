@@ -12,6 +12,12 @@ namespace GameCreator.Runtime.Melee
         
         public const int POOL_COUNT = 5;
         public const float POOL_DURATION = 5f;
+
+        private enum SkillTimeMode
+        {
+            Unscaled,
+            CasterTime
+        }
         
         // EXPOSED MEMBERS: -----------------------------------------------------------------------
 
@@ -20,13 +26,14 @@ namespace GameCreator.Runtime.Melee
         [SerializeField] private PropertyGetAudio m_SoundHit = GetAudioNone.Create;
         [SerializeField] private PropertyGetAudio m_SoundBlocked = GetAudioNone.Create;
         [SerializeField] private PropertyGetAudio m_SoundParried = GetAudioNone.Create;
-
+        
+        [SerializeField] private PropertyGetGameObject m_HitEffect = GetGameObjectNone.Create();
+        
         [SerializeField] private bool m_HitPause = true;
         [SerializeField] private float m_HitPauseTimeScale = 0.05f;
         [SerializeField] private float m_HitPauseDelay = 0.1f;
         [SerializeField] private float m_HitPauseDuration = 0.1f;
-        
-        [SerializeField] private PropertyGetGameObject m_HitEffect = GetGameObjectNone.Create();
+        [SerializeField] private SkillTimeMode m_TimeScale = SkillTimeMode.Unscaled;
 
         // PROPERTIES: ----------------------------------------------------------------------------
 
@@ -34,6 +41,8 @@ namespace GameCreator.Runtime.Melee
         public float HitPauseTimeScale => Math.Max(this.m_HitPauseTimeScale, 0f);
         public float HitPauseDelay => Math.Max(this.m_HitPauseDelay, 0f);
         public float HitPauseDuration => Math.Max(this.m_HitPauseDuration, 0f);
+
+        public bool UseUnscaledTime => this.m_TimeScale == SkillTimeMode.Unscaled;
         
         // PUBLIC METHODS: ------------------------------------------------------------------------
 

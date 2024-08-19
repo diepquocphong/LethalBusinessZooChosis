@@ -161,7 +161,7 @@ MonoBehaviour:
         m_IsEnabled: 1
         m_Target:
           m_Property:
-            rid: 8453198589618815693
+            rid: 8453198772754972756
         m_Attribute:
           m_Property:
             rid: 8453198454040822546
@@ -184,9 +184,6 @@ MonoBehaviour:
           m_Name:
             m_String: R_Damage
             m_ID: 1720949
-    - rid: 8453198589618815693
-      type: {class: GetGameObjectTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
     - rid: 8453198589618815694
       type: {class: GetPositionSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
@@ -194,3 +191,6 @@ MonoBehaviour:
       type: {class: GetRotationSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Space: 0
+    - rid: 8453198772754972756
+      type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 

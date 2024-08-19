@@ -13,11 +13,19 @@ namespace GameCreator.Runtime.Melee
     [Serializable]
     public class StrikerCapsule : TStrikerShape
     {
+        private enum Direction
+        {
+            X,
+            Y,
+            Z
+        }
+        
         // EXPOSED MEMBERS: -----------------------------------------------------------------------
 
         [SerializeField] private Vector3 m_Position = Vector3.zero;
         [SerializeField] private float m_Height = 1f;
         [SerializeField] private float m_Radius = 0.1f;
+        [SerializeField] private Direction m_Direction = Direction.X;
 
         // PROPERTIES: ----------------------------------------------------------------------------
 
@@ -28,7 +36,14 @@ namespace GameCreator.Runtime.Melee
 
         protected override int Cast(Vector3 position, Quaternion rotation, LayerMask layerMask)
         {
-            Vector3 direction = rotation * Vector3.right;
+            Vector3 direction = rotation * this.m_Direction switch
+            {
+                Direction.X => Vector3.right,
+                Direction.Y => Vector3.up,
+                Direction.Z => Vector3.forward,
+                _ => throw new ArgumentOutOfRangeException()
+            };
+            
             Vector3 point1 = position + direction * (+this.m_Height * 0.5f);
             Vector3 point2 = position + direction * (-this.m_Height * 0.5f);
             
@@ -42,7 +57,14 @@ namespace GameCreator.Runtime.Melee
         
         protected override Vector3 GetPoint(GameObject hit, Vector3 position, Quaternion rotation)
         {
-            Vector3 direction = rotation * Vector3.right;
+            Vector3 direction = rotation * this.m_Direction switch
+            {
+                Direction.X => Vector3.right,
+                Direction.Y => Vector3.up,
+                Direction.Z => Vector3.forward,
+                _ => throw new ArgumentOutOfRangeException()
+            };
+            
             Vector3 point1 = position + direction * (+this.m_Height * 0.5f);
             Vector3 point2 = position + direction * (-this.m_Height * 0.5f);
 
@@ -59,7 +81,13 @@ namespace GameCreator.Runtime.Melee
                 this.m_Radius, 
                 this.m_Height,
                 24, 
-                (int) GizmosExtension.CapsuleDirection.AxisX
+                this.m_Direction switch
+                {
+                    Direction.X => (int) GizmosExtension.CapsuleDirection.AxisX,
+                    Direction.Y => (int) GizmosExtension.CapsuleDirection.AxisY,
+                    Direction.Z => (int) GizmosExtension.CapsuleDirection.AxisZ,
+                    _ => throw new ArgumentOutOfRangeException()
+                }
             );
         }
     }

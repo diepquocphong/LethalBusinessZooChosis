@@ -7,6 +7,9 @@ TagManager:
   - NPC
   - Canvas
   - Destroy
+  - JoystickRotate
+  - ProbSpawn
+  - ItemSpawn
   layers:
   - Default
   - TransparentFX

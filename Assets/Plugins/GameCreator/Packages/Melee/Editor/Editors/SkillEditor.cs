@@ -232,6 +232,18 @@ namespace GameCreator.Editor.Melee
             this.m_Root.Add(new SpaceSmaller());
             this.m_Root.Add(new PropertyField(speedC));
             
+            SerializedProperty canBlock = this.serializedObject.FindProperty("m_CanBlock");
+            SerializedProperty canParry = this.serializedObject.FindProperty("m_CanParry");
+            
+            this.m_Root.Add(new SpaceSmall());
+            this.m_Root.Add(new LabelTitle("Can Block:"));
+            this.m_Root.Add(new SpaceSmaller());
+            this.m_Root.Add(new PropertyField(canBlock));
+            this.m_Root.Add(new SpaceSmall());
+            this.m_Root.Add(new LabelTitle("Can Parry:"));
+            this.m_Root.Add(new SpaceSmaller());
+            this.m_Root.Add(new PropertyField(canParry));
+            
             SerializedProperty poiseArmor = this.serializedObject.FindProperty("m_PoiseArmor");
             SerializedProperty poiseDamage = this.serializedObject.FindProperty("m_PoiseDamage");
 

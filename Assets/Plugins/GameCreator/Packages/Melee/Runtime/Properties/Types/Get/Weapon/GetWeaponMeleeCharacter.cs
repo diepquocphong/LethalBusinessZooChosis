@@ -7,14 +7,14 @@ namespace GameCreator.Runtime.Melee
 {
     [Title("Current Equipped")]
     [Category("Melee/Current Equipped")]
-    
+
     [Image(typeof(IconMeleeSword), ColorTheme.Type.Yellow, typeof(OverlayDot))]
     [Description("A reference to a Melee Weapon asset equipped by the specified Character")]
 
     [Serializable]
     public class GetWeaponMeleeCharacter : PropertyTypeGetWeapon
     {
-        [SerializeField] protected PropertyGetGameObject m_Character = GetGameObjectPlayer.Create();
+        [SerializeField] protected PropertyGetGameObject m_Character = GetGameObjectSelf.Create();
 
         public override IWeapon Get(Args args)
         {

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aef183b872bc4fd6b31ce8b5d8c35f11, type: 3}
+  m_Name: _Ento_Reaction
+  m_EditorClassIdentifier: 
+  m_TransitionIn: 0.1
+  m_TransitionOut: 0.25
+  m_UseRootMotion: 1
+  m_Speed:
+    m_Property:
+      rid: 4702992100153622904
+  m_ReactionList:
+    m_List:
+    - rid: 4702992100153622906
+  m_OnEnter:
+    m_Instructions:
+      m_Instructions: []
+  m_OnExit:
+    m_Instructions:
+      m_Instructions: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 4702992100153622904
+      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4702992100153622906
+      type: {class: ReactionItem, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_MinPower:
+          m_IsEnabled: 0
+          m_Value: 1
+        m_Direction: 0
+        m_Conditions:
+          m_Conditions:
+            m_Conditions: []
+        m_AvatarMask: {fileID: 0}
+        m_CancelTime:
+          m_IsEnabled: 0
+          m_Value: 0.5
+        m_Rotation: 0
+        m_Gravity: 1
+        m_Animations:
+          m_Animations:
+          - {fileID: 7400000, guid: 914a5bed9b607e04e940b7d4b7018a4a, type: 3}
+          - {fileID: 7400000, guid: 406fc84d88572a543b966c1aca5ca455, type: 3}
+          - {fileID: 7400000, guid: 9d675020a4a462f4b9a3376f24c71ac5, type: 3}
+          - {fileID: 7400000, guid: 54176661a7a512049b565e4e6c8b62fe, type: 3}

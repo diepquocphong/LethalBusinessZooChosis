@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3284265205175150748}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6318613234871685983}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Spine_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2339496062393205145}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6643816975339442116}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138,7 +138,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6291902465941992125}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_AntennaLeft_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4710133639717476689}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -203,7 +203,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7925966177789346901}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_MandibuleUpperLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -234,7 +234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7189368562298299059}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -267,7 +267,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 841490814891711667}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_MandibuleLowerLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -298,7 +298,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 970217174006500955}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_AntennaRight_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -330,7 +330,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4578135343853593060}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Spine_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -362,7 +362,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6448266633186415726}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Spine_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -427,7 +427,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4564934782179858257}
   - component: {fileID: 6474058640866236415}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SK_Serparmat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -559,7 +559,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1227369722120215036}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Jaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -580,6 +580,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8179310937790811203}
+  - {fileID: 472927752001428048}
   m_Father: {fileID: 5761242591221635440}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1294318639574066222
@@ -591,7 +592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7955689754966309085}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -746,7 +747,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6070266041623349132}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -778,7 +779,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2301923270830829193}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Spine_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8320800606125273812}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -843,7 +844,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8917186172122427644}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -876,7 +877,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3461075685511928202}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Spine_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -908,7 +909,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 900042595296167869}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Spine_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -940,7 +941,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1757689462448031134}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Spine_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -972,7 +973,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1892402881354061787}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_MandibuleLowerRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1003,7 +1004,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7626307911177962953}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_AntennaLeft_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1036,7 +1037,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1146552277287927368}
   - component: {fileID: 8250026473723773039}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SK_Serparmat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1090,7 +1091,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4241210380865890319}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_AntennaRight_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1121,7 +1122,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9060846019022649669}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1154,7 +1155,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1434775440351405247}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1187,7 +1188,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8689289549947552505}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Spine_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1219,7 +1220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 450142537501365083}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_AntennaLeft_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1251,7 +1252,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4662261341772407997}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_AntennaRight_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1283,7 +1284,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1152781755718796889}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Pelvis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1316,7 +1317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8979306270384201858}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1349,7 +1350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3320305438393592097}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1372,6 +1373,139 @@ Transform:
   - {fileID: 1152781755718796889}
   m_Father: {fileID: 1146552277287927368}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5741786635763442368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4163777141645683711}
+  - component: {fileID: 6042881617053523337}
+  m_Layer: 7
+  m_Name: TriggerShooterHit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4163777141645683711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5741786635763442368}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1088924146744575168}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6042881617053523337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5741786635763442368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 4702992101647319971
+    - rid: 4702992101647319977
+  m_TriggerEvent:
+    rid: 4702992101647319970
+  references:
+    version: 2
+    RefIds:
+    - rid: 4702992101647319970
+      type: {class: EventOnVariableLocalNameChange, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_Variable: {fileID: 5051896554732527044}
+          m_When: 1
+          m_Name:
+            m_String: AKHit
+            m_ID: 1920655467
+    - rid: 4702992101647319971
+      type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Conditions:
+          m_Conditions:
+          - rid: 4702992101647319972
+    - rid: 4702992101647319972
+      type: {class: ConditionCompareAttribute, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
+        m_Traits:
+          m_Property:
+            rid: 4702992101647319976
+        m_Attribute:
+          m_Property:
+            rid: 4702992101647319974
+        m_Value: 0
+        m_CompareTo:
+          m_Comparison: 3
+          m_CompareTo:
+            m_Property:
+              rid: 4702992101647319975
+    - rid: 4702992101647319974
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 4cf7ae5caa4804d0ea2548dceac15ffb, type: 2}
+    - rid: 4702992101647319975
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 4702992101647319976
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 3299385533761141512}
+    - rid: 4702992101647319977
+      type: {class: InstructionStatsChangeAttribute, ns: GameCreator.Runtime.Stats,
+        asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 4702992101647319981
+        m_Attribute:
+          m_Property:
+            rid: 4702992101647319979
+        m_Change:
+          m_Operation: 1
+          m_Value:
+            m_Property:
+              rid: 4702992101647319980
+    - rid: 4702992101647319979
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 4cf7ae5caa4804d0ea2548dceac15ffb, type: 2}
+    - rid: 4702992101647319980
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: -2
+    - rid: 4702992101647319981
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 3299385533761141512}
 --- !u!1 &5940003684733224216
 GameObject:
   m_ObjectHideFlags: 0
@@ -1381,7 +1515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4872889543088346535}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1414,7 +1548,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2801183988526728717}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_AntennaLeft_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1446,7 +1580,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4417311295564255644}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1479,7 +1613,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5848302950375246624}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1512,7 +1646,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8289980232877781234}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Spine_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1585,6 +1719,7 @@ MonoBehaviour:
     - rid: 8453198570586375085
     - rid: 8453198570586375142
     - rid: 8453198570586375101
+    - rid: 8453198772754972968
   m_TriggerEvent:
     rid: 8453198570586375081
   references:
@@ -1716,6 +1851,45 @@ MonoBehaviour:
         asm: GameCreator.Runtime.Core}
       data:
         m_Character: {fileID: 3299385533761141512}
+    - rid: 8453198772754972968
+      type: {class: InstructionArithmeticSubtractNumbers, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Set:
+          m_Property:
+            rid: 8453198772754972969
+        m_Value1:
+          m_Property:
+            rid: 8453198772754972970
+        m_Value2:
+          m_Property:
+            rid: 8453198772754972971
+    - rid: 8453198772754972969
+      type: {class: SetNumberGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: number
+          m_Variable: {fileID: 11400000, guid: 6dfb0ffbdde5f46e8a749b0164f73122, type: 2}
+          m_Name:
+            m_String: KillMonster
+            m_ID: -125769809
+    - rid: 8453198772754972970
+      type: {class: GetDecimalGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: number
+          m_Variable: {fileID: 11400000, guid: 6dfb0ffbdde5f46e8a749b0164f73122, type: 2}
+          m_Name:
+            m_String: KillMonster
+            m_ID: -125769809
+    - rid: 8453198772754972971
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
 --- !u!1 &7344071171207850678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1725,7 +1899,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 918063328652557352}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_AntennaLeft_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1756,7 +1930,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8989189575890555875}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_AntennaRight_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2034,7 +2208,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 829186721985649939}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_AntennaRight_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2066,7 +2240,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2530692263587166429}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2090,6 +2264,119 @@ Transform:
   - {fileID: 4417311295564255644}
   m_Father: {fileID: 4872889543088346535}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8081560089285404452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 472927752001428048}
+  - component: {fileID: 3266289895996153427}
+  - component: {fileID: 6859495152407144787}
+  m_Layer: 7
+  m_Name: BoxHitShooter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &472927752001428048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8081560089285404452}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1227369722120215036}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3266289895996153427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8081560089285404452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 4702992101966610549
+  m_TriggerEvent:
+    rid: 4702992101966610548
+  references:
+    version: 2
+    RefIds:
+    - rid: 4702992101966610548
+      type: {class: EventShooterHit, ns: GameCreator.Runtime.Shooter, asm: GameCreator.Runtime.Shooter}
+      data: 
+    - rid: 4702992101966610549
+      type: {class: InstructionBooleanSetBool, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Set:
+          m_Property:
+            rid: 4702992101966610552
+        m_From:
+          m_Property:
+            rid: 4702992101966610551
+    - rid: 4702992101966610551
+      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 4702992101966610552
+      type: {class: SetBoolLocalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: boolean
+          m_Variable:
+            rid: 4702992101966610553
+          m_Name:
+            m_String: AKHit
+            m_ID: 1920655467
+    - rid: 4702992101966610553
+      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Property:
+          rid: 4702992101966610554
+    - rid: 4702992101966610554
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 8855693862917207710}
+--- !u!135 &6859495152407144787
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8081560089285404452}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8397597992941344592
 GameObject:
   m_ObjectHideFlags: 0
@@ -2099,7 +2386,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6352349943496744692}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Spine_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2131,7 +2418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5761242591221635440}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2483,7 +2770,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 534964462960143393}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2514,7 +2801,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8135667508022100335}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2547,7 +2834,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7223890430340204989}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_AntennaLeft_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2579,7 +2866,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4916653990486338292}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_Tail_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2614,7 +2901,7 @@ GameObject:
   - component: {fileID: 8697452851403034679}
   - component: {fileID: 7966713380972160282}
   - component: {fileID: 2927166112576755870}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BoxCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2739,6 +3026,7 @@ GameObject:
   - component: {fileID: 3299385533761141512}
   - component: {fileID: 1623115985452407095}
   - component: {fileID: 9052626503892285968}
+  - component: {fileID: 5051896554732527044}
   m_Layer: 7
   m_Name: Serparmat
   m_TagString: Untagged
@@ -2764,6 +3052,7 @@ Transform:
   - {fileID: 3824290954181605029}
   - {fileID: 6387462475912332983}
   - {fileID: 1830619590583222682}
+  - {fileID: 4163777141645683711}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 160.53, z: 0}
 --- !u!114 &3299385533761141512
@@ -2793,9 +3082,6 @@ MonoBehaviour:
   m_Ragdoll:
     m_Ragdoll:
       rid: 8453198439962640541
-  m_UniqueID:
-    m_SerializedID:
-      m_String: 597288e5-a288-40e8-abb2-ad5476ec4853
   references:
     version: 2
     RefIds:
@@ -2835,8 +3121,8 @@ MonoBehaviour:
           m_IsEnabled: 1
           m_Value: 1800
         m_Mass: 80
-        m_Height: 2
-        m_Radius: 0.2
+        m_Height: 2.08
+        m_Radius: 1.01
         m_GravityUpwards: -9.81
         m_GravityDownwards: -9.81
         m_TerminalVelocity: -53
@@ -3009,6 +3295,54 @@ MonoBehaviour:
         m_Source: []
         m_TypeID:
           m_String: game-object
+--- !u!114 &5051896554732527044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8855693862917207710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe2b16044a04efba6795e323236dc60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaveUniqueID:
+    m_Save:
+      m_Save: 0
+    m_UniqueID:
+      m_SerializedID:
+        m_String: b9e423b5-60ac-4498-85d5-b3658a6925a2
+  m_Runtime:
+    rid: 4702992101647319964
+  references:
+    version: 2
+    RefIds:
+    - rid: 4702992101647319964
+      type: {class: NameVariableRuntime, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_List:
+          rid: 4702992101647319965
+    - rid: 4702992101647319965
+      type: {class: NameList, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Source:
+        - rid: 4702992101647319966
+    - rid: 4702992101647319966
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 4702992101647319968
+        m_Name:
+          m_String: AKHit
+    - rid: 4702992101647319968
+      type: {class: ValueBool, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 0
 --- !u!1 &8903146024677950736
 GameObject:
   m_ObjectHideFlags: 0
@@ -3018,7 +3352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6970293925082038923}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_MandibuleUpperRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3049,7 +3383,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3226200858818255910}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Serparmat_AntennaRight_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}

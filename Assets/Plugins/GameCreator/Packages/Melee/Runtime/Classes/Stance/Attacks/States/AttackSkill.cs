@@ -348,16 +348,18 @@ namespace GameCreator.Runtime.Melee
                 {
                     hitCharacter.Dash.OnDodge(hitArgs);
                 }
-                else
+                else if (!hitCharacter.Combat.Invincibility.IsInvincible)
                 {
                     MeleeStance hitMeleeStance = hitCharacter.Combat.RequestStance<MeleeStance>();
                     
                     IShield shield = hitCharacter.Combat.GetBlock(
                         shieldInput,
                         hitArgs,
+                        this.ComboSkill.CanBlock(hitArgs),
+                        this.ComboSkill.CanParry(hitArgs),
                         out ShieldOutput shieldOutput
                     );
-
+                    
                     switch (shieldOutput.Type)
                     {
                         case BlockType.Break:

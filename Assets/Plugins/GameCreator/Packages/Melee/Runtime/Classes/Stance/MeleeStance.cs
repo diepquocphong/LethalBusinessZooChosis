@@ -49,6 +49,9 @@ namespace GameCreator.Runtime.Melee
         
         public override void OnEnable(Character character)
         {
+            if (this.IsEnabled) return;
+            base.OnEnable(character);
+            
             this.Character = character;
             this.Args ??= new Args(
                 this.Character.gameObject,
@@ -69,6 +72,7 @@ namespace GameCreator.Runtime.Melee
 
         public override void OnDisable(Character character)
         {
+            base.OnDisable(character);
             this.Character.Combat.Targets.EventChangeTarget -= this.OnChangeTarget;
             
             this.m_Input.EventUseCharge -= this.OnInputCharge;

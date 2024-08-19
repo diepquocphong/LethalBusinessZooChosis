@@ -18,12 +18,14 @@ namespace GameCreator.Editor.Melee
             SerializedProperty soundHit = property.FindPropertyRelative("m_SoundHit");
             SerializedProperty soundBlocked = property.FindPropertyRelative("m_SoundBlocked");
             SerializedProperty soundParried = property.FindPropertyRelative("m_SoundParried");
-        
+            SerializedProperty timeScale = property.FindPropertyRelative("m_TimeScale");
+            
             PropertyField fieldSoundUse = new PropertyField(soundUse);
             PropertyField fieldSoundStrike = new PropertyField(soundStrike);
             PropertyField fieldSoundHit = new PropertyField(soundHit);
             PropertyField fieldSoundBlocked = new PropertyField(soundBlocked);
             PropertyField fieldSoundParried = new PropertyField(soundParried);
+            PropertyField fieldTimeScale = new PropertyField(timeScale);
             
             container.Add(fieldSoundUse);
             container.Add(new SpaceSmallest());
@@ -34,6 +36,8 @@ namespace GameCreator.Editor.Melee
             container.Add(fieldSoundBlocked);
             container.Add(new SpaceSmallest());
             container.Add(fieldSoundParried);
+            container.Add(new SpaceSmallest());
+            container.Add(fieldTimeScale);
             
             SerializedProperty hitPause = property.FindPropertyRelative("m_HitPause");
             SerializedProperty hitPauseScale = property.FindPropertyRelative("m_HitPauseTimeScale");

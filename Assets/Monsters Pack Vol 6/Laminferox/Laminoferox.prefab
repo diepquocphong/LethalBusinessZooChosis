@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9136584492897860962}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4433962360110617359}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_AntennaRight3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4877039961575232759}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_JawUpperLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7984141104826906706}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_Jaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,7 +248,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6473130939284671957}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_LegMiddleLeft1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,7 +280,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3185213433253300957}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_Neck4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7732628861991937654}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_AntennaRight4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,7 +346,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1854396891101923788}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_WeakPointRight3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,6 +379,7 @@ GameObject:
   - component: {fileID: 9190981414322762444}
   - component: {fileID: 2403999686170905470}
   - component: {fileID: 6822166802411411204}
+  - component: {fileID: 6236095056502729314}
   m_Layer: 7
   m_Name: Laminoferox
   m_TagString: Untagged
@@ -404,6 +405,8 @@ Transform:
   - {fileID: 331422146486701792}
   - {fileID: 1624526254771678135}
   - {fileID: 517796135912255582}
+  - {fileID: 8348535404405193108}
+  - {fileID: 4457781364024946342}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2403999686170905470
@@ -433,9 +436,6 @@ MonoBehaviour:
   m_Ragdoll:
     m_Ragdoll:
       rid: 8453198439962640541
-  m_UniqueID:
-    m_SerializedID:
-      m_String: 597288e5-a288-40e8-abb2-ad5476ec4853
   references:
     version: 2
     RefIds:
@@ -475,8 +475,8 @@ MonoBehaviour:
           m_IsEnabled: 1
           m_Value: 1800
         m_Mass: 80
-        m_Height: 2
-        m_Radius: 0.2
+        m_Height: 9.14
+        m_Radius: 4.11
         m_GravityUpwards: -9.81
         m_GravityDownwards: -9.81
         m_TerminalVelocity: -53
@@ -520,7 +520,7 @@ MonoBehaviour:
         m_Mannequin: {fileID: 9035239001545305951}
         m_Animator: {fileID: 8102756242789437348}
         m_StartState: {fileID: 0}
-        m_Reaction: {fileID: 0}
+        m_Reaction: {fileID: 11400000, guid: 31990cbd084474f42bd66a0cae6f54e4, type: 2}
     - rid: 8453198439962640547
       type: {class: InputValueVector2MotionPrimary, ns: GameCreator.Runtime.Common,
         asm: GameCreator.Runtime.Core}
@@ -615,6 +615,54 @@ MonoBehaviour:
       m_ChangeBase:
         m_IsEnabled: 0
         m_Value: 1
+--- !u!114 &6236095056502729314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623198851889507053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe2b16044a04efba6795e323236dc60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaveUniqueID:
+    m_Save:
+      m_Save: 0
+    m_UniqueID:
+      m_SerializedID:
+        m_String: d3d5789e-128b-462d-bb7f-29ce284a5ce6
+  m_Runtime:
+    rid: 4702992101293163371
+  references:
+    version: 2
+    RefIds:
+    - rid: 4702992101293163371
+      type: {class: NameVariableRuntime, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_List:
+          rid: 4702992101293163372
+    - rid: 4702992101293163372
+      type: {class: NameList, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Source:
+        - rid: 4702992101293163373
+    - rid: 4702992101293163373
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 4702992101293163375
+        m_Name:
+          m_String: AKHit
+    - rid: 4702992101293163375
+      type: {class: ValueBool, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 0
 --- !u!1 &1718537286709896911
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,7 +672,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3990102530017002947}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_WeakPointLeft3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -658,7 +706,7 @@ GameObject:
   - component: {fileID: 3784698169791432819}
   - component: {fileID: 6946592081939589008}
   - component: {fileID: 4036742099225905710}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BoxCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -780,7 +828,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 538878924724334636}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_LegFrontLeft2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -812,7 +860,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2250123496427913895}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_Neck2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -882,6 +930,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Instructions:
     m_Instructions:
+    - rid: 4702992101647319667
     - rid: 8453198511154660303
     - rid: 8453198511154660305
     - rid: 8453198511154660312
@@ -890,6 +939,77 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 4702992101647319662
+      type: {class: ConditionCompareAttribute, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
+        m_Traits:
+          m_Property:
+            rid: 4702992101647319666
+        m_Attribute:
+          m_Property:
+            rid: 4702992101647319664
+        m_Value: 0
+        m_CompareTo:
+          m_Comparison: 3
+          m_CompareTo:
+            m_Property:
+              rid: 4702992101647319665
+    - rid: 4702992101647319664
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 4cf7ae5caa4804d0ea2548dceac15ffb, type: 2}
+    - rid: 4702992101647319665
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 4702992101647319666
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 2403999686170905470}
+    - rid: 4702992101647319667
+      type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Conditions:
+          m_Conditions:
+          - rid: 4702992101647319668
+    - rid: 4702992101647319668
+      type: {class: ConditionCompareAttribute, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
+        m_Traits:
+          m_Property:
+            rid: 4702992101647319669
+        m_Attribute:
+          m_Property:
+            rid: 4702992101647319670
+        m_Value: 0
+        m_CompareTo:
+          m_Comparison: 3
+          m_CompareTo:
+            m_Property:
+              rid: 4702992101647319671
+    - rid: 4702992101647319669
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 2403999686170905470}
+    - rid: 4702992101647319670
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 4cf7ae5caa4804d0ea2548dceac15ffb, type: 2}
+    - rid: 4702992101647319671
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
     - rid: 8453198439962640838
       type: {class: EventTriggerEnterLayer, ns: , asm: Assembly-CSharp-firstpass}
       data:
@@ -918,6 +1038,7 @@ MonoBehaviour:
         m_Conditions:
           m_Conditions:
           - rid: 8453198511154660306
+          - rid: 4702992101647319662
     - rid: 8453198511154660306
       type: {class: ConditionMathCompareDistance, ns: GameCreator.Runtime.VisualScripting,
         asm: GameCreator.Runtime.Core}
@@ -1104,7 +1225,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7640581119878887596}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_Tail4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1135,7 +1256,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3109602625648990883}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_JawUpperRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1166,7 +1287,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8219079383483156768}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_LegRearLeft3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1197,7 +1318,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7325887727508960624}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_LegRearLeft2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1229,7 +1350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7708920661955786065}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_LegMiddleLeft3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1260,7 +1381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3749064484395776023}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_LegRearLeft1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1292,7 +1413,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7340544456013523699}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_WeakPointLeft2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1323,7 +1444,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7969815834208901525}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_LegMiddleRight2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1355,7 +1476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6825378457597736200}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_AntennaLeft1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1387,7 +1508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9017249135783017927}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_AntennaLeft5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1418,7 +1539,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1407738736857140029}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_AntennaRight5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1449,7 +1570,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7730229034552911030}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_Tail2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1481,7 +1602,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5999158335245442108}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_LegMiddleRight1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1513,7 +1634,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1119937622228423211}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_Pelvis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1546,7 +1667,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7791972331008800296}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1581,7 +1702,7 @@ GameObject:
   m_Component:
   - component: {fileID: 269201191487329329}
   - component: {fileID: 8102756242789437348}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SK_Laminoferox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1635,7 +1756,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1232150375024452554}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_FrontRight1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1668,7 +1789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2906887860515513954}
   - component: {fileID: 1879175825805978789}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SK_Laminoferox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1804,7 +1925,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 335024017223608634}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_JawLowerRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2029,7 +2150,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7714830180406532075}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2063,7 +2184,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3941399523403671731}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2095,7 +2216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7733724927304875925}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_WeakPointRight1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2126,7 +2247,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2812337150477288289}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_AntennaLeft2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2158,7 +2279,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 369362871470119565}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_JawLowerLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2189,7 +2310,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2993808460670709286}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_FrontRight2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2221,7 +2342,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 33908040994134261}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_LegFrontLeft1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2253,7 +2374,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5598454788787362396}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_Neck3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2287,7 +2408,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8115355939507178713}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_LegRearRight2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2319,7 +2440,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8361349060252626677}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_AntennaLeft4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2352,7 +2473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4035219698795769540}
   - component: {fileID: 2896210795344473082}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Camera Shot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2437,7 +2558,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 867496426283168716}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_AntennaLeft3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2469,7 +2590,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5855898203337882991}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_LegMiddleRight3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2500,7 +2621,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1649435390185302602}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_LegRearRight1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2532,7 +2653,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4551020043705469969}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2566,7 +2687,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 199766887047150133}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_WeakPointLeft1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2597,7 +2718,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3401285100920722987}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_Neck1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2620,6 +2741,139 @@ Transform:
   - {fileID: 2250123496427913895}
   m_Father: {fileID: 4551020043705469969}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8081183692191759625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4457781364024946342}
+  - component: {fileID: 70139380819011270}
+  m_Layer: 7
+  m_Name: TriggerShooterHit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4457781364024946342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8081183692191759625}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9190981414322762444}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &70139380819011270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8081183692191759625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 4702992101293163387
+    - rid: 4702992101293163378
+  m_TriggerEvent:
+    rid: 4702992101293163377
+  references:
+    version: 2
+    RefIds:
+    - rid: 4702992101293163377
+      type: {class: EventOnVariableLocalNameChange, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_Variable: {fileID: 6236095056502729314}
+          m_When: 1
+          m_Name:
+            m_String: AKHit
+            m_ID: 1920655467
+    - rid: 4702992101293163378
+      type: {class: InstructionStatsChangeAttribute, ns: GameCreator.Runtime.Stats,
+        asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 4702992101293163382
+        m_Attribute:
+          m_Property:
+            rid: 4702992101293163380
+        m_Change:
+          m_Operation: 1
+          m_Value:
+            m_Property:
+              rid: 4702992101293163381
+    - rid: 4702992101293163380
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 4cf7ae5caa4804d0ea2548dceac15ffb, type: 2}
+    - rid: 4702992101293163381
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: -7
+    - rid: 4702992101293163382
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 2403999686170905470}
+    - rid: 4702992101293163387
+      type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Conditions:
+          m_Conditions:
+          - rid: 4702992101293163388
+    - rid: 4702992101293163388
+      type: {class: ConditionCompareAttribute, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
+        m_Traits:
+          m_Property:
+            rid: 4702992101293163392
+        m_Attribute:
+          m_Property:
+            rid: 4702992101293163390
+        m_Value: 0
+        m_CompareTo:
+          m_Comparison: 3
+          m_CompareTo:
+            m_Property:
+              rid: 4702992101293163391
+    - rid: 4702992101293163390
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 4cf7ae5caa4804d0ea2548dceac15ffb, type: 2}
+    - rid: 4702992101293163391
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 4702992101293163392
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 2403999686170905470}
 --- !u!1 &8143995096718491633
 GameObject:
   m_ObjectHideFlags: 0
@@ -2629,7 +2883,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6625411038693320707}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_WeakPointRight2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2660,7 +2914,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1806599811437000101}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_AntennaRight2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2731,6 +2985,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Instructions:
     m_Instructions:
+    - rid: 4702992101647319657
     - rid: 8453198523588411732
     - rid: 8453198570586374488
     - rid: 8453198523588411735
@@ -2751,6 +3006,46 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 4702992101647319657
+      type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Conditions:
+          m_Conditions:
+          - rid: 4702992101647319658
+    - rid: 4702992101647319658
+      type: {class: ConditionCompareAttribute, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
+        m_Traits:
+          m_Property:
+            rid: 4702992101647319659
+        m_Attribute:
+          m_Property:
+            rid: 4702992101647319660
+        m_Value: 0
+        m_CompareTo:
+          m_Comparison: 3
+          m_CompareTo:
+            m_Property:
+              rid: 4702992101647319661
+    - rid: 4702992101647319659
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 2403999686170905470}
+    - rid: 4702992101647319660
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 4cf7ae5caa4804d0ea2548dceac15ffb, type: 2}
+    - rid: 4702992101647319661
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
     - rid: 8453198439962640702
       type: {class: InstructionGameObjectDisableCollider, ns: GameCreator.Runtime.VisualScripting,
         asm: GameCreator.Runtime.Core}
@@ -2848,6 +3143,7 @@ MonoBehaviour:
         m_Transform:
           m_Property:
             rid: 8453198523588411641
+        m_KeepPosition: 0
     - rid: 8453198523588411641
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data: 
@@ -3179,7 +3475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 423368923954284522}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_LegRearRight3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3210,7 +3506,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3103812053155831244}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_LegMiddleLeft2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3242,7 +3538,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6240974362227728204}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_AntennaRight1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3274,7 +3570,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3495416271657994684}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_FrontRight3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3296,6 +3592,254 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2993808460670709286}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8689340869136174141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8348535404405193108}
+  - component: {fileID: 857928308870092965}
+  m_Layer: 7
+  m_Name: TriggerDead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8348535404405193108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8689340869136174141}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -55.75, y: 0, z: -23.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9190981414322762444}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &857928308870092965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8689340869136174141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 8453198570586375085
+    - rid: 8453198570586375142
+    - rid: 8453198579494814111
+    - rid: 8453198570586375101
+    - rid: 8453198772754972964
+  m_TriggerEvent:
+    rid: 8453198570586375081
+  references:
+    version: 2
+    RefIds:
+    - rid: 8453198570586375081
+      type: {class: EventStatsAttributeChange, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Target:
+          m_Property:
+            rid: 8453198570586375084
+        m_When: 2
+        m_Attribute:
+          m_Property:
+            rid: 8453198570586375083
+    - rid: 8453198570586375083
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 4cf7ae5caa4804d0ea2548dceac15ffb, type: 2}
+    - rid: 8453198570586375084
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 2403999686170905470}
+    - rid: 8453198570586375085
+      type: {class: InstructionLogicCheckConditions, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Conditions:
+          m_Conditions:
+          - rid: 8453198570586375086
+    - rid: 8453198570586375086
+      type: {class: ConditionCompareAttribute, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
+        m_Traits:
+          m_Property:
+            rid: 8453198570586375090
+        m_Attribute:
+          m_Property:
+            rid: 8453198570586375088
+        m_Value: 0
+        m_CompareTo:
+          m_Comparison: 2
+          m_CompareTo:
+            m_Property:
+              rid: 8453198570586375089
+    - rid: 8453198570586375088
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 4cf7ae5caa4804d0ea2548dceac15ffb, type: 2}
+    - rid: 8453198570586375089
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 8453198570586375090
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 2403999686170905470}
+    - rid: 8453198570586375101
+      type: {class: InstructionCharacterEnterState, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 8453198570586375105
+        m_State:
+          m_StateType: 0
+          m_AnimationClip:
+            m_Property:
+              rid: 8453198570586375103
+          m_RuntimeController: {fileID: 0}
+          m_State: {fileID: 0}
+          m_AvatarMask: {fileID: 0}
+        m_Layer:
+          m_Property:
+            rid: 8453198570586375104
+        m_BlendMode: 0
+        m_Delay: 0
+        m_Speed: 1
+        m_Weight: 1
+        m_Transition: 0.1
+    - rid: 8453198570586375103
+      type: {class: GetAnimationInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: {fileID: 7400000, guid: 1a0cbe0a63ab9e44ab936aa1dcf0f1c5, type: 3}
+    - rid: 8453198570586375104
+      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 10
+    - rid: 8453198570586375105
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 2403999686170905470}
+    - rid: 8453198570586375142
+      type: {class: InstructionCharacterPropertyMoveSpeed, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 8453198570586375145
+        m_Speed:
+          m_Operation: 0
+          m_Value:
+            m_Property:
+              rid: 8453198570586375144
+        m_Transition:
+          m_Duration: 0
+          m_Easing: 3
+          m_Time: 0
+          m_WaitToComplete: 1
+    - rid: 8453198570586375144
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0
+    - rid: 8453198570586375145
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 2403999686170905470}
+    - rid: 8453198579494814111
+      type: {class: InstructionCharacterPropertyTerminalVelocity, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 8453198579494814114
+        m_TerminalVelocity:
+          m_Operation: 0
+          m_Value:
+            m_Property:
+              rid: 8453198579494814113
+        m_Transition:
+          m_Duration: 0
+          m_Easing: 3
+          m_Time: 0
+          m_WaitToComplete: 1
+    - rid: 8453198579494814113
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: -53
+    - rid: 8453198579494814114
+      type: {class: GetGameObjectCharactersInstance, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Character: {fileID: 2403999686170905470}
+    - rid: 8453198772754972964
+      type: {class: InstructionArithmeticSubtractNumbers, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Set:
+          m_Property:
+            rid: 8453198772754972965
+        m_Value1:
+          m_Property:
+            rid: 8453198772754972966
+        m_Value2:
+          m_Property:
+            rid: 8453198772754972967
+    - rid: 8453198772754972965
+      type: {class: SetNumberGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: number
+          m_Variable: {fileID: 11400000, guid: 6dfb0ffbdde5f46e8a749b0164f73122, type: 2}
+          m_Name:
+            m_String: KillMonster
+            m_ID: -125769809
+    - rid: 8453198772754972966
+      type: {class: GetDecimalGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: number
+          m_Variable: {fileID: 11400000, guid: 6dfb0ffbdde5f46e8a749b0164f73122, type: 2}
+          m_Name:
+            m_String: KillMonster
+            m_ID: -125769809
+    - rid: 8453198772754972967
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
 --- !u!1 &8696417154309714925
 GameObject:
   m_ObjectHideFlags: 0
@@ -3305,7 +3849,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 626752659810108560}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_Neck5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3345,7 +3889,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3412298816635165798}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_LegFrontLeft3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3409,7 +3953,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2657982373455551683}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_Tail1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3475,7 +4019,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 546551640720946114}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Laminoferox_Tail3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
