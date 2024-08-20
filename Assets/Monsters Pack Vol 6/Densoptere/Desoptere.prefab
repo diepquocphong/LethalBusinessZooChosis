@@ -401,7 +401,7 @@ MonoBehaviour:
     - rid: 8453198579494813886
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 20
+        m_Value: 40
     - rid: 8453198579494813887
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
@@ -547,7 +547,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 15
+  m_Radius: 40
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1179141035180299054
 GameObject:

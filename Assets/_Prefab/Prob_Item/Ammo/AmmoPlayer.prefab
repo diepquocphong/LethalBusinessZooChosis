@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3729010694405175036}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.127, y: 1.37, z: 4.497}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -360,7 +360,7 @@ MonoBehaviour:
   _editor_horizontal: 1
   _editor_category: 0
   Editor_InIsolatedScene: 0
-  Editor_JustCreated: 1
+  Editor_JustCreated: 0
   UseDOTS: 0
   DOTSObstacleType: 2
   DOTSDetection: 0

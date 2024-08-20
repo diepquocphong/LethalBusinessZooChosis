@@ -9813,6 +9813,7 @@ GameObject:
   - component: {fileID: 4406427899763870}
   - component: {fileID: 198403215944816914}
   - component: {fileID: 199370202537204254}
+  - component: {fileID: -6244652047672102948}
   m_Layer: 0
   m_Name: Blood_Slice_Directional_L
   m_TagString: Untagged
@@ -14708,6 +14709,57 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &-6244652047672102948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230507190969890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 4702992118772138216
+    - rid: 4702992118772138211
+  m_TriggerEvent:
+    rid: 4702992118772138221
+  references:
+    version: 2
+    RefIds:
+    - rid: 4702992118772138211
+      type: {class: InstructionGameObjectDestroy, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_GameObject:
+          m_Property:
+            rid: 4702992118772138214
+    - rid: 4702992118772138214
+      type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4702992118772138216
+      type: {class: InstructionCommonTimeWait, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Seconds:
+          m_Property:
+            rid: 4702992118772138217
+        m_Mode:
+          m_UpdateTime: 0
+    - rid: 4702992118772138217
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 3
+    - rid: 4702992118772138221
+      type: {class: EventOnEnable, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data: 
 --- !u!1 &1611487614611266
 GameObject:
   m_ObjectHideFlags: 0

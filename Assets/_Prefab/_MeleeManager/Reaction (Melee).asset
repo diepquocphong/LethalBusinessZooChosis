@@ -27,6 +27,7 @@ MonoBehaviour:
       - rid: 8453198454040821797
       - rid: 8453198454040822174
       - rid: 8453198454040822544
+      - rid: 4702992123518255140
   m_OnExit:
     m_Instructions:
       m_Instructions:
@@ -34,6 +35,41 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 4702992123518255140
+      type: {class: InstructionBooleanSetBool, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Set:
+          m_Property:
+            rid: 4702992123518255143
+        m_From:
+          m_Property:
+            rid: 4702992123518255142
+    - rid: 4702992123518255142
+      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 4702992123518255143
+      type: {class: SetBoolLocalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: boolean
+          m_Variable:
+            rid: 4702992123518255144
+          m_Name:
+            m_String: MeleeHit
+            m_ID: -1309220215
+    - rid: 4702992123518255144
+      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Property:
+          rid: 4702992123518255146
+    - rid: 4702992123518255146
+      type: {class: GetGameObjectTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
     - rid: 8453198439962641132
       type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
