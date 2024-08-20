@@ -5071,7 +5071,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4846529305266809795
 Transform:
   m_ObjectHideFlags: 0
@@ -12263,6 +12263,7 @@ MonoBehaviour:
     - rid: 4702992124560801931
     - rid: 4702992124560801933
     - rid: 4702992124560801940
+    - rid: 4702992125620125963
     - rid: 4702992124560801955
   m_TriggerEvent:
     rid: 4702992117866955710
@@ -12419,6 +12420,65 @@ MonoBehaviour:
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
+    - rid: 4702992125620125963
+      type: {class: InstructionArithmeticSubtractNumbers, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Set:
+          m_Property:
+            rid: 4702992125620125967
+        m_Value1:
+          m_Property:
+            rid: 4702992125620125970
+        m_Value2:
+          m_Property:
+            rid: 4702992125620125966
+    - rid: 4702992125620125966
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 4702992125620125967
+      type: {class: SetNumberLocalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: number
+          m_Variable:
+            rid: 4702992125620125968
+          m_Name:
+            m_String: NumMonster
+            m_ID: -458470269
+    - rid: 4702992125620125968
+      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Property:
+          rid: 4702992125620125969
+    - rid: 4702992125620125969
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 8320161957990668161}
+    - rid: 4702992125620125970
+      type: {class: GetDecimalLocalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: number
+          m_Variable:
+            rid: 4702992125620125971
+          m_Name:
+            m_String: NumMonster
+            m_ID: -458470269
+    - rid: 4702992125620125971
+      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Property:
+          rid: 4702992125620125972
+    - rid: 4702992125620125972
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 8320161957990668161}
 --- !u!114 &4105584130873636450
 MonoBehaviour:
   m_ObjectHideFlags: 0

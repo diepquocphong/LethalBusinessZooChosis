@@ -501,7 +501,7 @@ MonoBehaviour:
         m_Driver:
           rid: 8453198280670576659
         m_Facing:
-          rid: 8453198570586374468
+          rid: 8453198614033072354
         m_Animim:
           rid: 8453198280670576661
     - rid: 8453198280670576654
@@ -601,15 +601,15 @@ MonoBehaviour:
         m_TransitionDuration: 0.2
         m_RecoverFaceDown: {fileID: 0}
         m_RecoverFaceUp: {fileID: 0}
-    - rid: 8453198570586374468
-      type: {class: UnitFacingPivot, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+    - rid: 8453198614033072354
+      type: {class: UnitFacingObjectDirection, ns: GameCreator.Runtime.Characters,
+        asm: GameCreator.Runtime.Core}
       data:
-        m_DirectionFrom: 0
-        m_Axonometry:
-          m_Axonometry:
-            rid: 8453198570586374469
-    - rid: 8453198570586374469
-      type: {class: AxonometryNone, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+        m_DirectionOf:
+          m_Property:
+            rid: 8453198614033072355
+    - rid: 8453198614033072355
+      type: {class: GetGameObjectCameraMain, ns: GameCreator.Runtime.Cameras, asm: GameCreator.Runtime.Core}
       data: 
 --- !u!114 &7018524932544922731
 MonoBehaviour:

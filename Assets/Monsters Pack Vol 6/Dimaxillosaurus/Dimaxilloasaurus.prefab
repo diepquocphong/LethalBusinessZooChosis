@@ -2032,7 +2032,7 @@ MonoBehaviour:
     - rid: 8453198579234504834
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 1.5
+        m_Value: 2.5
     - rid: 8453198579234504835
       type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
@@ -4120,7 +4120,7 @@ PrefabInstance:
     - target: {fileID: 5351627417582284063, guid: 349efc8966b4e41669e614cae0cdce8e,
         type: 3}
       propertyPath: managedReferences[8453198439962640650].m_Radius
-      value: 0.8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7981076233747699490, guid: 349efc8966b4e41669e614cae0cdce8e,
         type: 3}
@@ -4140,17 +4140,17 @@ PrefabInstance:
     - target: {fileID: 7981076233747699490, guid: 349efc8966b4e41669e614cae0cdce8e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.592
       objectReference: {fileID: 0}
     - target: {fileID: 7981076233747699490, guid: 349efc8966b4e41669e614cae0cdce8e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.351
       objectReference: {fileID: 0}
     - target: {fileID: 7981076233747699490, guid: 349efc8966b4e41669e614cae0cdce8e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.321
       objectReference: {fileID: 0}
     - target: {fileID: 7981076233747699490, guid: 349efc8966b4e41669e614cae0cdce8e,
         type: 3}

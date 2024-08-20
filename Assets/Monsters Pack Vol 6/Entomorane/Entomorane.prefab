@@ -2143,7 +2143,7 @@ MonoBehaviour:
     - rid: 8453198579234504834
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 1.5
+        m_Value: 2.5
     - rid: 8453198579234504835
       type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
@@ -2332,12 +2332,12 @@ PrefabInstance:
     - target: {fileID: 7981076233747699490, guid: 006050b72a2bd4b7c871632c66c5a256,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.549
+      value: -1.25
       objectReference: {fileID: 0}
     - target: {fileID: 7981076233747699490, guid: 006050b72a2bd4b7c871632c66c5a256,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.557
+      value: 1.02
       objectReference: {fileID: 0}
     - target: {fileID: 7981076233747699490, guid: 006050b72a2bd4b7c871632c66c5a256,
         type: 3}

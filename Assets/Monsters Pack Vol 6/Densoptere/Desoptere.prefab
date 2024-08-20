@@ -3654,6 +3654,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoxCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 5351627417582284063, guid: 2d61caed56548459787627b50cd998bc,
+        type: 3}
+      propertyPath: managedReferences[8453198439962640650].m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7981076233747699490, guid: 2d61caed56548459787627b50cd998bc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3667,7 +3672,7 @@ PrefabInstance:
     - target: {fileID: 7981076233747699490, guid: 2d61caed56548459787627b50cd998bc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1.52
       objectReference: {fileID: 0}
     - target: {fileID: 7981076233747699490, guid: 2d61caed56548459787627b50cd998bc,
         type: 3}
