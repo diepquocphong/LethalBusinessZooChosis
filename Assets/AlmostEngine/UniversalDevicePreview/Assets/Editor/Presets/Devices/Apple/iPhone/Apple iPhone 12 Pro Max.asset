@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -13,19 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Resolution:
     m_Active: 1
-    m_Width: 2778
-    m_Height: 1284
+    m_Width: 2796
+    m_Height: 1290
     m_Scale: 1
-    m_Orientation: 2
+    m_Orientation: 0
     m_ResolutionName: Apple iPhone 12 Pro Max
     m_Category: Devices/Apple/iPhone
     m_Platform: iOS
     m_PPI: 458
     m_ForcedUnityPPI: 0
-    m_DeviceCanvas: {fileID: 22333258, guid: 6c29deb4f6d80514899d6ab08938d695, type: 2}
+    m_DeviceCanvas: {fileID: 0}
     m_Ratio: 2:1~
     m_FileName: 
     m_IgnoreOrientation: 0
+    m_DisableSafeArea: 0
     m_SafeAreaPortrait:
       serializedVersion: 2
       x: 0

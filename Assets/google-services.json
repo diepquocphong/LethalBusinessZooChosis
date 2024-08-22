@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "577736941416",
+    "project_id": "motalzoochosis",
+    "storage_bucket": "motalzoochosis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577736941416:android:a28ccd51625870bcbd80dd",
+        "android_client_info": {
+          "package_name": "com.DSS.Game10"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOlZyHLV9po_7gyJt2EmP7dm5xBhZufNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

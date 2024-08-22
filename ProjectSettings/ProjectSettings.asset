@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: 'Motal Zoochosis: LiveCam'
+  productName: 'Mortal Zoochosis: LiveCam'
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -162,6 +162,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DSS.Game10
+    iPhone: com.DSS.Game10
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -236,14 +237,14 @@ PlayerSettings:
   metalCompileShaderBinary: 0
   iOSRenderExtraFrameOnPause: 0
   iosCopyPluginsCodeInsteadOfSymlink: 0
-  appleDeveloperTeamID: 
+  appleDeveloperTeamID: 53KCBBUS5F
   iOSManualSigningProvisioningProfileID: 
   tvOSManualSigningProvisioningProfileID: 
   VisionOSManualSigningProvisioningProfileID: 
   iOSManualSigningProvisioningProfileType: 0
   tvOSManualSigningProvisioningProfileType: 0
   VisionOSManualSigningProvisioningProfileType: 0
-  appleEnableAutomaticSigning: 0
+  appleEnableAutomaticSigning: 1
   iOSRequireARKit: 0
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
@@ -283,7 +284,14 @@ PlayerSettings:
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 70a9dc5e6f7c54f2c8e6fd329b09cc02, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: iPhone
     m_Icons:
@@ -580,7 +588,7 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
+  cameraUsageDescription: I need use Camera
   locationUsageDescription: 
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
@@ -832,7 +840,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: OPTIMIZERS_DOTS_IMPORTED;GLEY_APPLOVIN;USC_UNITY_PIPELINE_LEGACY;USC_EXCLUDE_SHARE;UNITY_POST_PROCESSING_STACK_V2
+    Android: OPTIMIZERS_DOTS_IMPORTED;USC_UNITY_PIPELINE_LEGACY;USC_EXCLUDE_SHARE;UNITY_POST_PROCESSING_STACK_V2;GLEY_ADMOB;GLEY_PATCH_ADMOB
     EmbeddedLinux: UNITY_POST_PROCESSING_STACK_V2
     GameCoreXboxOne: UNITY_POST_PROCESSING_STACK_V2
     Nintendo Switch: UNITY_POST_PROCESSING_STACK_V2
@@ -845,7 +853,7 @@ PlayerSettings:
     WebGL: USC_EXCLUDE_SHARE;UNITY_POST_PROCESSING_STACK_V2
     Windows Store Apps: 
     XboxOne: UNITY_POST_PROCESSING_STACK_V2
-    iPhone: GLEY_APPLOVIN;USC_EXCLUDE_SHARE;USC_EXCLUDE_IOS_GALLERY
+    iPhone: USC_EXCLUDE_SHARE;USC_EXCLUDE_IOS_GALLERY;GLEY_ADMOB;GLEY_PATCH_ADMOB;OPTIMIZERS_DOTS_IMPORTED;USC_UNITY_PIPELINE_LEGACY
     tvOS: UNITY_POST_PROCESSING_STACK_V2
   additionalCompilerArguments: {}
   platformArchitecture: {}

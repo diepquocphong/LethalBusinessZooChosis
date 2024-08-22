@@ -18,7 +18,8 @@ public class AdsManager : MonoBehaviour
             onRewardedVideoCompleted = new UnityEvent();
         }
 
-        FirebaseApp.CheckAndFixDependenciesAsync().ContinueWithOnMainThread(task => {
+        FirebaseApp.CheckAndFixDependenciesAsync().ContinueWithOnMainThread(task =>
+        {
             if (task.Result == DependencyStatus.Available)
             {
                 FirebaseAnalytics.SetAnalyticsCollectionEnabled(true);
@@ -45,6 +46,11 @@ public class AdsManager : MonoBehaviour
     {
         Gley.MobileAds.API.ShowBanner(Gley.MobileAds.BannerPosition.Bottom, Gley.MobileAds.BannerType.Adaptive);
         OnAdShown("Banner");
+    }
+
+    public void HideBanner()
+    {
+        Gley.MobileAds.API.HideBanner();
     }
 
     public void ShowInterstitial()

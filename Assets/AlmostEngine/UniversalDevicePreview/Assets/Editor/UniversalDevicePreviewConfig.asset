@@ -50,126 +50,47 @@ MonoBehaviour:
     m_ResolutionCaptureMode: 1
     m_Resolutions:
     - m_Active: 1
-      m_Width: 2160
-      m_Height: 1620
+      m_Width: 2796
+      m_Height: 1290
       m_Scale: 1
       m_Orientation: 0
-      m_ResolutionName: Apple iPad 10.2 (2020)
-      m_Category: Devices/Apple/iPad
-      m_Platform: iOS
-      m_PPI: 265
-      m_ForcedUnityPPI: 0
-      m_DeviceCanvas: {fileID: 22375798, guid: bb351ef41afce9a4fb33045ba7c43a60, type: 3}
-      m_Ratio: 4:3
-      m_FileName: /Users/macbook/Pictures/Screenshots/Universal/Apple iPad 10.2 (2020).png
-      m_IgnoreOrientation: 0
-      m_DisableSafeArea: 0
-      m_SafeAreaPortrait:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_SafeAreaLandscapeLeft:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-    - m_Active: 1
-      m_Width: 2532
-      m_Height: 1170
-      m_Scale: 1
-      m_Orientation: 0
-      m_ResolutionName: Apple iPhone 12
+      m_ResolutionName: Apple iPhone 12 Pro Max
       m_Category: Devices/Apple/iPhone
       m_Platform: iOS
-      m_PPI: 457
+      m_PPI: 458
       m_ForcedUnityPPI: 0
-      m_DeviceCanvas: {fileID: 22333258, guid: 6c29deb4f6d80514899d6ab08938d695, type: 3}
+      m_DeviceCanvas: {fileID: 0}
       m_Ratio: 2:1~
-      m_FileName: /Users/macbook/Pictures/Screenshots/Universal/Apple iPhone 12.png
+      m_FileName: /Users/macbook/Pictures/Screenshots/Universal/Apple iPhone 12 Pro
+        Max (4).png
       m_IgnoreOrientation: 0
       m_DisableSafeArea: 0
       m_SafeAreaPortrait:
         serializedVersion: 2
         x: 0
         y: 102
-        width: 1170
-        height: 2289
+        width: 1284
+        height: 2535
       m_SafeAreaLandscapeLeft:
         serializedVersion: 2
         x: 141
         y: 63
-        width: 2250
-        height: 1107
+        width: 2496
+        height: 1221
     - m_Active: 1
-      m_Width: 1334
-      m_Height: 750
+      m_Width: 2208
+      m_Height: 1242
       m_Scale: 1
       m_Orientation: 0
-      m_ResolutionName: Apple iPhone SE (2020)
-      m_Category: Devices/Apple/iPhone
+      m_ResolutionName: iPhone 5.5 inch - 6S Plus, 7 Plus, 8 Plus
+      m_Category: StoreScreenshots/AppStore
       m_Platform: iOS
-      m_PPI: 326
+      m_PPI: 401
       m_ForcedUnityPPI: 0
-      m_DeviceCanvas: {fileID: 22395588, guid: aa3d8ba952f3599488b0b50331dd42d0, type: 3}
-      m_Ratio: 16:9~
-      m_FileName: /Users/macbook/Pictures/Screenshots/Universal/Apple iPhone SE (2020).png
-      m_IgnoreOrientation: 0
-      m_DisableSafeArea: 0
-      m_SafeAreaPortrait:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_SafeAreaLandscapeLeft:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-    - m_Active: 0
-      m_Width: 2340
-      m_Height: 1080
-      m_Scale: 1
-      m_Orientation: 0
-      m_ResolutionName: Google Pixel 4a (4G)
-      m_Category: Devices/Google
-      m_Platform: Android
-      m_PPI: 443
-      m_ForcedUnityPPI: 0
-      m_DeviceCanvas: {fileID: 22359418, guid: 71bd5fd00aafc4140b5b1ebbc2981c16, type: 3}
-      m_Ratio: 2:1~
-      m_FileName: /Users/macbook/Pictures/Screenshots/Universal/Google Pixel 4a (4G).png
-      m_IgnoreOrientation: 0
-      m_DisableSafeArea: 0
-      m_SafeAreaPortrait:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1080
-        height: 2204
-      m_SafeAreaLandscapeLeft:
-        serializedVersion: 2
-        x: 136
-        y: 0
-        width: 2204
-        height: 1080
-    - m_Active: 0
-      m_Width: 1280
-      m_Height: 720
-      m_Scale: 1
-      m_Orientation: 0
-      m_ResolutionName: Nintendo Switch
-      m_Category: Devices/Nintendo
-      m_Platform: Switch
-      m_PPI: 236
-      m_ForcedUnityPPI: 0
-      m_DeviceCanvas: {fileID: 22359418, guid: 223a6fe877a01d64f95cb1c9b3e756c4, type: 3}
+      m_DeviceCanvas: {fileID: 0}
       m_Ratio: 16:9
-      m_FileName: /Users/macbook/Pictures/Screenshots/Universal/Nintendo Switch.png
+      m_FileName: /Users/macbook/Pictures/Screenshots/Universal/iPhone 5.5 inch -
+        6S Plus, 7 Plus, 8 Plus (4).png
       m_IgnoreOrientation: 0
       m_DisableSafeArea: 0
       m_SafeAreaPortrait:
@@ -184,73 +105,20 @@ MonoBehaviour:
         y: 0
         width: 0
         height: 0
-    - m_Active: 0
-      m_Width: 2280
-      m_Height: 1080
+    - m_Active: 1
+      m_Width: 2732
+      m_Height: 2048
       m_Scale: 1
       m_Orientation: 0
-      m_ResolutionName: OnePlus 6
-      m_Category: Devices/OnePlus
-      m_Platform: Android
-      m_PPI: 402
+      m_ResolutionName: Apple iPad Pro 12.9 (2021)
+      m_Category: Devices/Apple/iPad
+      m_Platform: iOS
+      m_PPI: 265
       m_ForcedUnityPPI: 0
-      m_DeviceCanvas: {fileID: 22359418, guid: 019921eb3e9274149b7b87d94771f333, type: 3}
-      m_Ratio: 21:10~
-      m_FileName: /Users/macbook/Pictures/Screenshots/Universal/OnePlus 6.png
-      m_IgnoreOrientation: 0
-      m_DisableSafeArea: 0
-      m_SafeAreaPortrait:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1080
-        height: 2201
-      m_SafeAreaLandscapeLeft:
-        serializedVersion: 2
-        x: 79
-        y: 0
-        width: 2201
-        height: 1080
-    - m_Active: 0
-      m_Width: 3040
-      m_Height: 1440
-      m_Scale: 1
-      m_Orientation: 0
-      m_ResolutionName: Samsung Galaxy S10+
-      m_Category: Devices/Samsung
-      m_Platform: Android
-      m_PPI: 522
-      m_ForcedUnityPPI: 0
-      m_DeviceCanvas: {fileID: 22359418, guid: 6f99485293f31b94598d93007b53c365, type: 3}
-      m_Ratio: 21:10~
-      m_FileName: /Users/macbook/Pictures/Screenshots/Universal/Samsung Galaxy S10+.png
-      m_IgnoreOrientation: 0
-      m_DisableSafeArea: 0
-      m_SafeAreaPortrait:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1440
-        height: 2898
-      m_SafeAreaLandscapeLeft:
-        serializedVersion: 2
-        x: 142
-        y: 0
-        width: 2898
-        height: 1440
-    - m_Active: 0
-      m_Width: 1280
-      m_Height: 800
-      m_Scale: 1
-      m_Orientation: 0
-      m_ResolutionName: Steam Deck
-      m_Category: Devices/Steam
-      m_Platform: 
-      m_PPI: 206
-      m_ForcedUnityPPI: 0
-      m_DeviceCanvas: {fileID: 22359418, guid: 264941ac6d22d37428769ff0522861a5, type: 3}
-      m_Ratio: 16:10
-      m_FileName: /Users/macbook/Pictures/Screenshots/Universal/Steam Deck.png
+      m_DeviceCanvas: {fileID: 22375798, guid: ca56440c6e6947b4d8bdd85dd0db525d, type: 3}
+      m_Ratio: 12:9~
+      m_FileName: /Users/macbook/Pictures/Screenshots/Universal/Apple iPad Pro 12.9
+        (2021) (1).png
       m_IgnoreOrientation: 0
       m_DisableSafeArea: 0
       m_SafeAreaPortrait:
@@ -265,35 +133,6 @@ MonoBehaviour:
         y: 0
         width: 0
         height: 0
-    - m_Active: 0
-      m_Width: 2340
-      m_Height: 1080
-      m_Scale: 1
-      m_Orientation: 0
-      m_ResolutionName: Xiaomi Redmi Note 8 Pro
-      m_Category: Devices/Xiaomi
-      m_Platform: Android
-      m_PPI: 395
-      m_ForcedUnityPPI: 0
-      m_DeviceCanvas: {fileID: 223107751563639720, guid: 91505643abac8e14ca16db545691ba40,
-        type: 3}
-      m_Ratio: 2:1~
-      m_FileName: /Users/macbook/Pictures/Screenshots/Universal/Xiaomi Redmi Note
-        8 Pro.png
-      m_IgnoreOrientation: 0
-      m_DisableSafeArea: 0
-      m_SafeAreaPortrait:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1080
-        height: 2264
-      m_SafeAreaLandscapeLeft:
-        serializedVersion: 2
-        x: 76
-        y: 0
-        width: 2264
-        height: 1080
     m_GameViewResolution:
       m_Active: 1
       m_Width: 983
@@ -389,7 +228,7 @@ MonoBehaviour:
   m_GalleryPaddingVertical: 10
   m_GalleryTextHeight: 30
   m_GalleryBorderSize: 2
-  m_Selected: 0
+  m_Selected: 2
   m_PreviewGalleryZoom: 0.59
   m_PreviewZoom: 0.22
   m_RefreshMode: 0
@@ -397,16 +236,15 @@ MonoBehaviour:
   m_RefreshDelay: 0.83
   m_GalleryDisplayMode: 2
   m_PreviewDisplayMode: 1
-  m_DrawingMode: 2
+  m_DrawingMode: 0
   m_DeviceRendererCamera: {fileID: 2009090, guid: 277a80b5609ce0441a8f4b6e014524f1,
     type: 3}
   m_DefaultDeviceCanvas: {fileID: 22333258, guid: 1c3e759c6432d0d45bbb466445ec03c5,
     type: 3}
   m_TransparentDeviceBackground: 0
   m_OptimizePreviewResolution: 0
-  m_DrawSafeArea: 1
-  m_SafeAreaCanvas: {fileID: 223366713027128130, guid: de52309f8dae51e4babb47a313c72eef,
-    type: 3}
+  m_DrawSafeArea: 0
+  m_SafeAreaCanvas: {fileID: 0}
   m_ShowGallery: 1
   m_ExpandDevices: 0
   m_ShowResolution: 1

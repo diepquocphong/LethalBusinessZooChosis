@@ -13607,6 +13607,110 @@ Transform:
   - {fileID: 202779575}
   m_Father: {fileID: 659629575}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &494393090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 494393092}
+  - component: {fileID: 494393091}
+  - component: {fileID: 494393093}
+  m_Layer: 0
+  m_Name: ADS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &494393091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494393090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae752279a3f44ad192005fd6130aa6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onRewardedVideoCompleted:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &494393092
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494393090}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.2245467, y: 8.466824, z: -11.453369}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &494393093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494393090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Instructions:
+    m_Instructions:
+    - rid: 4702992147286851600
+  m_TriggerEvent:
+    rid: 4702992147286851599
+  references:
+    version: 2
+    RefIds:
+    - rid: 4702992147286851599
+      type: {class: EventOnEnable, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4702992147286851600
+      type: {class: InstructionLogicCallMethod, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Method:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 494393091}
+              m_TargetAssemblyTypeName: AdsManager, Assembly-CSharp
+              m_MethodName: ShowBanner
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+            - m_Target: {fileID: 494393091}
+              m_TargetAssemblyTypeName: AdsManager, Assembly-CSharp
+              m_MethodName: HideMRec
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
 --- !u!1 &503598157
 GameObject:
   m_ObjectHideFlags: 0
@@ -22248,6 +22352,7 @@ GameObject:
   - component: {fileID: 670044324}
   - component: {fileID: 670044323}
   - component: {fileID: 670044321}
+  - component: {fileID: 670044327}
   m_Layer: 0
   m_Name: MarkerStartMisson
   m_TagString: Untagged
@@ -22412,12 +22517,56 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 8453198614033072314
+    - rid: 4702992147286851602
+    - rid: 4702992147286851616
     - rid: 8453198667804049418
   m_TriggerEvent:
     rid: 8453198614033072295
   references:
     version: 2
     RefIds:
+    - rid: 4702992147286851602
+      type: {class: InstructionTransitionsLoadScene, ns: GameCreator.Runtime.Transitions,
+        asm: GameCreator.Runtime.Transitions}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Transition: {fileID: 11400000, guid: 5dd704197a10244c59cad0c1c6f0a79b, type: 2}
+        m_WaitActivation: 1
+        m_Scene:
+          m_Property:
+            rid: 4702992147286851603
+        m_Mode: 0
+        m_SceneEntries:
+          m_Entries: []
+    - rid: 4702992147286851603
+      type: {class: GetSceneAsset, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Scene:
+          m_Scene: {fileID: 102900000, guid: 8d8a9036cd1774c77bd900be566df8f2, type: 3}
+          m_SceneName: GamePlay
+          m_SceneIndex: 2
+    - rid: 4702992147286851616
+      type: {class: InstructionLogicCallMethod, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Method:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 670044327}
+              m_TargetAssemblyTypeName: AdsManager, Assembly-CSharp
+              m_MethodName: HideBanner
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
     - rid: 8453198614033072295
       type: {class: EventTriggerEnter, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:
@@ -22474,7 +22623,7 @@ MonoBehaviour:
     - rid: 8453198667804049420
       type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 1
+        m_Value: 0
 --- !u!65 &670044324
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27302,6 +27451,21 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &670044327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670044319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae752279a3f44ad192005fd6130aa6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onRewardedVideoCompleted:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &671051107
 GameObject:
   m_ObjectHideFlags: 0
@@ -48058,6 +48222,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184861734630252773, guid: 2b99aa581e3d1402785145e718b84b5c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8128014720145988854, guid: 2b99aa581e3d1402785145e718b84b5c,
         type: 3}
@@ -88516,6 +88685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Instructions:
     m_Instructions:
+    - rid: 4702992147286851601
     - rid: 8453198614033072297
     - rid: 8453198614033072308
     - rid: 8453198614033072314
@@ -88528,6 +88698,27 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 4702992147286851601
+      type: {class: InstructionLogicCallMethod, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Method:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 494393091}
+              m_TargetAssemblyTypeName: AdsManager, Assembly-CSharp
+              m_MethodName: ShowInterstitial
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
     - rid: 8453198614033072295
       type: {class: EventTriggerEnter, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:
@@ -89087,3 +89278,4 @@ SceneRoots:
   - {fileID: 1800488662}
   - {fileID: 347697655}
   - {fileID: 1049842286}
+  - {fileID: 494393092}
